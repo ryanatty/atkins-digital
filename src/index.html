@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<div>
+  {% for item in site.work %}
+    {% include work-summary.html work = item %}
+  {% endfor %}
+</div>
