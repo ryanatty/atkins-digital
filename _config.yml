@@ -40,3 +40,14 @@ destination: dist
 
 gems:
   - octopress-autoprefixer
+
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: work
+
+collections:
+  work:
+    output: true
