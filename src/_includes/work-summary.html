@@ -1,7 +1,5 @@
-<article class="work-summary">
-  <a class="work-summary__link" href="{{ include.work.permalink }}" title="">
-    <img class="work-summary__thumb" src="{{ include.work.thumb }}" alt="">
-    <h3 class="work-summary__title"><strong class="work-summary__category">{{ include.work.category }} :</strong> {{ include.work.title }}</h3>
-    <p class="work-summary__text">{{ include.work.summary }}</p>
-  </a>
-</article>
+<a class="work-summary" href="{{ include.work.permalink }}" title="">
+  <img class="work-summary__thumb" src="{{ include.work.thumb }}" alt="">
+  <h3 class="work-summary__title"><strong class="work-summary__category">{{ include.work.category }} :</strong> {{ include.work.title }}</h3>
+  <p class="work-summary__text">{{ include.work.summary }}</p>
+</a>

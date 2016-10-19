@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<div class="fukol-grid">
-  {% for item in site.work %}
-    {% include work-summary.html work = item %}
-  {% endfor %}
+<div class="contained">
+  <div class="fukol-grid">
+    {% for item in site.work %}
+      {% include work-summary.html work = item %}
+    {% endfor %}
+  </div>
 </div>
