@@ -1,24 +1,10 @@
 .header
-  padding: 1em 2em
+  padding: 1em
   clear: both
   background: $color__white
 
+  +breakpoint($breakpoint__sm)
+    padding: 1em 2em
+
   &--internal
     border-top: 0.75em solid $color__black
-
-  .logo--header
-    img
-      max-width: 15em
-
-  .nav
-    &--header
-      float: right
-
-      &__link
-        padding: 0 0 0 0.75em
-
-    &__link
-      font-weight: bold
-      text-transform: uppercase
-      font-size: 1.15em
-      line-height: 2em

@@ -1,0 +1,43 @@
+.nav
+  &__link
+    font-weight: bold
+    text-transform: uppercase
+    font-size: 1.8em
+    line-height: 1
+    display: block
+
+    &:hover
+      background-color: $color__highlight
+      color: $color__black
+
+    &--contact
+      margin-top: 0.5em
+      border-bottom: 2px solid $color__black
+
+  &--header
+    +breakpoint($breakpoint__sm)
+      float: right
+
+    &__link
+      +breakpoint($breakpoint__sm)
+        display: inline-block
+        font-size: 1.2em
+
+        &:not(:first-child)
+          margin-left: 0.75em
+
+      &:hover
+        background-color: $color__highlight
+
+  &--footer
+    text-align: right
+
+    &__link
+      color: $color__white
+      font-weight: normal
+
+      +breakpoint($breakpoint__sm)
+        font-size: 1em
+
+      &--contact
+        border-color: $color__white

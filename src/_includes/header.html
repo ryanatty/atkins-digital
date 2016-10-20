@@ -1,13 +1,14 @@
 <header class="header {% if page.url != '/' %} header--internal {% endif %}">
   <a class="logo logo--header" href="/" alt="">
-    <img class="logo__img logo--herader__img" src="/assets/img/atkins-digital.svg" title="ATKINS DIGITAL">
+    <svg viewBox="0 0 267 34" class="logo__img logo--header__img">
+      <use xlink:href="#logo"></use>
+    </svg>
   </a>
   <nav class="nav nav--header">
     <a class="nav__link nav--header__link" href="/web/"     title="">Web</a>
     <a class="nav__link nav--header__link" href="/graphic/" title="">Graphic</a>
     <a class="nav__link nav--header__link" href="/video/"   title="">Video</a>
     <a class="nav__link nav--header__link" href="/photo/"   title="">Photo</a>
-    <span class="nav__spacer">|</span>
-    <a class="nav__link nav--header__link nav__link--contact" href="mailto:hello@atkins.digital" title="" style="text-decoration:underline">hello@atkins.digital</a>
+    <a class="nav__link nav--header__link nav__link--contact" href="mailto:hello@atkins.digital" title="">hello@atkins.digital</a>
   </nav>
 </header>

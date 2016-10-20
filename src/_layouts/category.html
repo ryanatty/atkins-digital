@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign category = page.path | remove: '.html' %}
+
+<div class="contained">
+  <h1>/{{ category }} :</h1>
+
+  <div class="fukol-grid">
+    {% for item in site.work %}
+      {% if item.category == category %}
+        {% include work-summary.html work = item %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

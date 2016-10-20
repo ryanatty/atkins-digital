@@ -1,0 +1,18 @@
+.logo
+  display: inline-block
+  width: 12em
+  margin-bottom: 2em
+
+  &--header
+    +breakpoint($breakpoint__sm)
+      width: 15em
+
+    &:hover
+      background-color: $color__highlight
+
+    &__img
+      fill: $color__black
+
+  &--footer
+    &__img
+      fill: $color__highlight
