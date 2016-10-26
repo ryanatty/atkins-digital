@@ -5,8 +5,6 @@ branches:
   only:
     - master
     - live
-env:
-  - "rack=master"
 install:
   - bundle install
 cache:
