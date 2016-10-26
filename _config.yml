@@ -36,7 +36,7 @@ exclude:
 sass:
 
 source: src
-destination: dist
+destination: build
 
 gems:
   - octopress-autoprefixer
