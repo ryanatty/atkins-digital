@@ -1,14 +1,22 @@
 language: ruby
+
 rvm:
   - 2.2
+
 branches:
   only:
     - master
     - live
+
 install:
   - bundle install
+
 cache:
   bundler: true
+
+script:
+  - jekyll build
+
 deploy:
   provider: s3
   access_key_id:
