@@ -4,8 +4,14 @@
   margin-bottom: 2em
 
   &--header
-    +breakpoint($breakpoint__sm)
+    width: 9em
+    float: right
+    background-color: $color__highlight
+    
+    +breakpoint($breakpoint__sm - 10em)
+      background-color: $color__white
       width: 15em
+      float: left
 
     &:hover
       background-color: $color__highlight

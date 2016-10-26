@@ -1,10 +1,7 @@
 .header
-  padding: 1em
-  clear: both
+  @extend .clearfix
+  padding: 1em 1em 4em
   background: $color__white
-
-  +breakpoint($breakpoint__sm)
-    padding: 1em 2em
 
   &--internal
     border-top: 0.75em solid $color__black

@@ -8,5 +8,10 @@ html, body
   background: $color__highlight
 
 .main
-  padding-top: 4em
   background-color: $color__white
+
+.clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both

@@ -1,5 +1,17 @@
 <div class="related">
+
   <h3 class="related__heading">Related Work</h3>
-  <div class="">
+
+  <div class="contained">
+    <div class="fukol-grid">
+      {% for item_id in include.items %}
+        {% for item in site.work %}
+          {% if item_id == item.work_id %}
+            {% include work-summary.html work = item %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
   </div>
+
 </div>

@@ -11,13 +11,18 @@
 
   &__title
     margin: 0.5em 0
+    font-size: 1.4em
+
+    +breakpoint($breakpoint__sm)
+      font-size: 1em
 
   &__category
     text-transform: uppercase
-    // color: $color__white
-    line-height: 0.8em
     background-color: $color__highlight
 
   &__text
-    font-size: 0.8em
     color: $color__gray--dark
+    font-size: 1em
+
+    +breakpoint($breakpoint__sm)
+      font-size: 0.8em

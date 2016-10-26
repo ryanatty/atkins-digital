@@ -14,20 +14,42 @@
       margin-top: 0.5em
       border-bottom: 2px solid $color__black
 
+  &__contact-label
+    &--short
+      display: none
+      
+      +breakpoint(($breakpoint__sm - 10em) ($breakpoint__sm + 7))
+        display: inline
+
+    &--long
+      +breakpoint(($breakpoint__sm - 10em) ($breakpoint__sm + 7))
+        display: none
+
   &--header
-    +breakpoint($breakpoint__sm)
+    +breakpoint($breakpoint__sm - 10em)
       float: right
 
     &__link
-      +breakpoint($breakpoint__sm)
+      +breakpoint($breakpoint__sm - 10em)
+        transform: rotate(90deg)
         display: inline-block
-        font-size: 1.2em
+        width: 1.5em
+        font-size: 1.6em
+        left: 0
+
+      +breakpoint($breakpoint__sm + 7em)
+        transform: rotate(0)
+        font-size: 1.5em
+        width: auto
 
         &:not(:first-child)
           margin-left: 0.75em
 
       &:hover
         background-color: $color__highlight
+
+      &--contact
+        background: $color__highlight
 
   &--footer
     text-align: right
@@ -37,7 +59,7 @@
       font-weight: normal
 
       +breakpoint($breakpoint__sm)
-        font-size: 1em
+        font-size: 1.3em
 
       &--contact
         border-color: $color__white
