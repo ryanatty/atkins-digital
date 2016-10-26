@@ -26,4 +26,4 @@ deploy:
   bucket: "stage.atkins.digital"
   skip_cleanup: true
   local_dir: "build"
-  region: "oregon"
+  region: "us-west-2"
