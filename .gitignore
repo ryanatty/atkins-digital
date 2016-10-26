@@ -56,5 +56,4 @@ bower_components
 test
 
 # Output folders
-serve
-dist
+build
