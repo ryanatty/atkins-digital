@@ -15,3 +15,21 @@ html, body
     content: ""
     display: table
     clear: both
+
+=strike($height: 6px, $color: $color__black)
+  position: relative
+
+  &::before
+    content: ''
+    height: $height
+    position: absolute
+    background: $color
+    top: 50%
+    margin-top: -($height * 0.5)
+    transition: all 0.1s ease
+    width: 0%
+    left: 0
+
+  &:hover
+    &::before
+      width: 100%
