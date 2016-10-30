@@ -1,0 +1,22 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+{% for person in site.team %}
+  <div class="fukol-grid">
+    <div class="work__desc">
+      <h2>{{ person.name }}</h2>
+      <p>{{ person.title }}<p>
+      {{ person.content }}
+      <ul>
+        {% for link in person.links %}
+          <a href="{{ link.href }}">{{ link.label }}</a>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="work__sample">
+      <img src="{{ person.pic }}" alt="{{ person.name }}">
+    </div>
+  </div>
+{% endfor %}

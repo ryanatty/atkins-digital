@@ -52,3 +52,5 @@ defaults:
 collections:
   work:
     output: true
+  team:
+    output: false
