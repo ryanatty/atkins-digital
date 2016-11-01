@@ -1,18 +1,23 @@
 .nav
   &__link
+    +strike
+    display: block
+    padding: 0 4px
     font-weight: bold
     text-transform: uppercase
     font-size: 1.8em
     line-height: 1
-    display: block
+
+    span
+      font-size: 0.5em !important
 
   &--header
     +breakpoint($breakpoint__sm - 10em)
       float: right
 
     &__link
-      +strike
-      padding: 0 4px
+      &.is-current
+        +staticStrike($color: $color__highlight)
 
       +breakpoint($breakpoint__sm - 10em)
         transform: rotate(90deg)
@@ -31,14 +36,12 @@
           margin-right: 0
 
   &--footer
-
     &__link
-      +strike($color: $color__black)
-      font-weight: normal
       display: inline-block
+      
+      &.is-current
+        +staticStrike($color: $color__white)
 
       +breakpoint($breakpoint__sm)
         font-size: 1em
-        font-weight: bold
-        padding: 0 4px
         margin: 0 0.75em

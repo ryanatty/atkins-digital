@@ -4,15 +4,6 @@
       <use xlink:href="#logo"></use>
     </svg>
   </a>
-  <nav class="nav nav--header">
-    <a class="nav__link nav--header__link" href="/web/"     title="">Web</a>
-    <a class="nav__link nav--header__link" href="/graphic/" title="">Graphic</a>
-    <a class="nav__link nav--header__link" href="/video/"   title="">Video</a>
-    <a class="nav__link nav--header__link" href="/photo/"   title="">Photo</a>
-    <a class="nav__link nav--header__link" href="/mixed-reality/"   title="">M.R.</a>
-    <span>:</span>
-    <a class="nav__link nav--header__link" href="/about/"   title="">About Us</a>
-    <span>:</span>
-    <a class="nav__link nav--header__link" href="/connect/" title="">Connect</a>
-  </nav>
+
+  {% include nav.html modifier = 'header' %}
 </header>

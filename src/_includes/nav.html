@@ -1,0 +1,49 @@
+<nav class="nav nav--{{ include.modifier }}">
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'web.html' or page.category == 'web' %} is-current {% endif %}"   
+    href="/web/"   
+    title="">Web</a>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'graphic.html' or page.category == 'graphic' %} is-current {% endif %}"       
+    href="/graphic/"         
+    title="">Graphic</a>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'video.html' or page.category == 'video' %} is-current {% endif %}" 
+    href="/video/"
+    title="">Video</a>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'photo.html' or page.category == 'photo' %} is-current {% endif %}"         
+    href="/photo/"
+    title="">Photo</a>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'mixed-reality.html' %} is-current {% endif %}" 
+    href="/mixed-reality/"   
+    title="">M<span>ixed</span> R<span>eality</span></a>
+
+  <span>:</span>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'about.html' %} is-current {% endif %}"         
+    href="/about/"           
+    title="">About</a>
+
+  <span>:</span>
+
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link 
+      {% if page.path == 'connect.html' %} is-current {% endif %}"       
+    href="/connect/"         
+    title="">Connect</a>
+
+</nav>

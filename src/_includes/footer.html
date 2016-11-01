@@ -5,17 +5,7 @@
     </svg>
   </a>
 
-  <nav class="nav nav--footer">
-    <a class="nav__link nav--footer__link {% if page.path == 'web.html' %} is-current {% endif %}"           href="/web/"     title="">Web</a>
-    <a class="nav__link nav--footer__link {% if page.path == 'graphic.html' %} is-current {% endif %}"       href="/graphic/" title="">Graphic</a>
-    <a class="nav__link nav--footer__link {% if page.path == 'video.html' %} is-current {% endif %}"         href="/video/"   title="">Video</a>
-    <a class="nav__link nav--footer__link {% if page.path == 'photo.html' %} is-current {% endif %}"         href="/photo/"   title="">Photo</a>
-    <a class="nav__link nav--header__link {% if page.path == 'mixed-reality.html' %} is-current {% endif %}" href="/mixed-reality/"   title="">M.R.</a>
-    <span>:</span>
-    <a class="nav__link nav--footer__link {% if page.path == 'photo.html' %} is-current {% endif %}"         href="/about/"   title="">About Us</a>
-    <span>:</span>
-    <a class="nav__link nav--footer__link {% if page.path == 'connect.html' %} is-current {% endif %}"       href="/connect/" title="">Connect</a>
-  </nav>
+  {% include nav.html modifier = 'footer' %}
 
   <p class="by-line">Atkins Digital :: Copyright 2016</p>
 </footer>

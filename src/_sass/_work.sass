@@ -1,24 +1,18 @@
 .work
-  &__category
-    background: $color__highlight
-    font-size: 1.5em
-
-  &__desc
+  &__story
     text-align: right
-    margin-bottom: 1em
-    max-width: 15em
+    margin-bottom: 4em
 
-    +breakpoint($breakpoint__sm)
+    &::after
+      content: ''
+      display: block
+      height: 6px
+      width: 10px
+      background: $color__red
 
-    +breakpoint($breakpoint__sm + 5em)
-      padding-right: 1em
-
-    +breakpoint($breakpoint__sm + 10em)
-      max-width: 24em
-      padding-right: 4em
- 
     p
       font-size: 0.8em
+      line-height: 1.5em
       font-style: italic
       color: $color__red
 
@@ -32,6 +26,8 @@
       &::before
         background-color: $color__highlight
 
-  &__sample
-    img
-      width: 100%
+  &__links-list
+    list-style: none
+    
+  &__links-link
+
