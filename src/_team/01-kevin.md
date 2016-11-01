@@ -8,12 +8,12 @@ links:
   - label: LinkedIn
     href: https://instagram.com/kins_ryan
   - label: Instagram
-    href: https://instagram.com/kins_ryan
+    href: https://www.instagram.com/kmatkins/
+  - label: kevinatkins.gallery
+    href: http://www.kevinatkins.gallery/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+A lover of film, editing, motion design and drama, I grew up watching Band of Brothers, skateboarding to Blink-182, and spending many a night listening to Miles Davis while learning whatever I could about the events that shaped the 20th century.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I always knew I wanted a life that revolved around history, art and storytelling. I came into videography and editing through a circuitous route by writing songs and performing in a band. During that time I discovered I preferred to be on the other side of the camera—shooting and editing our music videos rather than performing in them.
 
-> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As a freelance videographer and editor since 2011, I have enjoyed being a part of a team, taking direction from other stakeholders, yet I deliver just as well when working independently. Clients say I am a natural storyteller. They appreciate my ability to show how we can achieve the goal of their project, while making their story come to life with an intimacy and emotion that people will remember through skillful camera work and editing.

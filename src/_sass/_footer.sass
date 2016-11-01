@@ -1,9 +1,20 @@
 .footer
   padding: 1em
   background: $color__black
+  background: linear-gradient(to bottom, #fdfdfd 0%, #c9ff23 100%)
+  text-align: center
+
+  &::before
+    content: ''
+    display: block
+    height: 6px
+    width: 300px
+    margin: 0 auto 4em
+    background: $color__black
 
   .by-line
-    margin: 10em 0 1em
-    color: $color__white
-    text-align: right
+    font-family: 'Anonymous Pro', monospace
+    margin: 8em 0 1em
+    // color: $color__white
+    text-align: center
     font-size: 0.5em

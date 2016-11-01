@@ -4,19 +4,34 @@ title: About
 permalink: /about/
 ---
 {% for person in site.team %}
-  <div class="fukol-grid">
-    <div class="work__desc">
-      <h2>{{ person.name }}</h2>
-      <p>{{ person.title }}<p>
-      {{ person.content }}
-      <ul>
-        {% for link in person.links %}
-          <a href="{{ link.href }}">{{ link.label }}</a>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="work__sample">
-      <img src="{{ person.pic }}" alt="{{ person.name }}">
+  <div class="bio">
+    <div class="fukol-grid">
+      <div class="layout__copy">
+
+        <h2 class="bio__name">{{ person.name }}</h2>
+        <p class="bio__title">{{ person.title }}<p>
+
+        <div class="bio__story">
+          {{ person.content }}
+        </div>
+
+        <!--
+        <h3>Connect</h3>
+        <ul class="bio__links-list">
+          {% for link in person.links %}
+            <li class="bio__links-item">
+              <a class="bio__links-link" href="{{ link.href }}">{{ link.label }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        -->
+
+      </div>
+      <div class="layout__media">
+
+        <img class="bio__photo" src="{{ person.pic }}" alt="{{ person.name }}">
+
+      </div>
     </div>
   </div>
 {% endfor %}

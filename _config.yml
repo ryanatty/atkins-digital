@@ -48,6 +48,7 @@ defaults:
       type: work
     values:
       layout: work
+      is_work: true
 
 collections:
   work:
