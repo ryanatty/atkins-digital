@@ -15,6 +15,7 @@ related:
   - 12
   - 8
 permalink: /koda-website/
+published: true
 ---
 Our brief was to create an immersive e-commerce site that challenged the traditional look and feel of online fashion stores, but at the same time, make it easier for customers to complete their transaction with the brand and encourage brand loyalty.
 

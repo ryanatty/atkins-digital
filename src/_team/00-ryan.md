@@ -1,6 +1,6 @@
 ---
 name: Ryan Atkins
-title: "Web Master, Graphic Design"
+title: "Web Desgin/Dev, Graphic Design"
 pic: "/assets/img/ryan.jpg"
 links:
   - label: ryan@atkins.digital

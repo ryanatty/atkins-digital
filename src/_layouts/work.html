@@ -8,18 +8,23 @@ layout: page
         {{ content }}
       </div>
 
-      <h3>More Info</h3>
-      <ul class="work__links-list">
-        {% for link in page.links %}
-          <li class="work__links-item">
-            <a class="work__links-link" href="{{ link.href }}">{{ link.label }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+      {% comment %}
+        <h3>More Info</h3>
+        <ul class="work__links-list">
+          {% for link in page.links %}
+            <li class="work__links-item">
+              <a class="work__links-link" href="{{ link.href }}">{{ link.label }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endcomment %}
+
     </div>
     <div class="layout__media">
       {% for item in page.media %}
-        {{ item }}
+        <div class="work__item">
+          {{ item }}
+        </div>
       {% endfor %}
     </div>
   </div>

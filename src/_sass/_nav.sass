@@ -1,14 +1,31 @@
 .nav
+  margin: 0
+  padding: 0
+  list-style: none
+
+  &__item
+    display: block
+
+    +breakpoint($breakpoint__sm)
+      display: inline-block
+      margin: 0 0.25em
+
+      &:last-child
+        margin-right: 0
+
+    +breakpoint($breakpoint__sm - 10em)
+      // transform: rotate(90deg)
+      // width: 2em
+      // float: left
+
   &__link
     +strike
-    display: block
+    // display: block
     padding: 0 4px
     font-weight: bold
     text-transform: uppercase
     font-size: 1.8em
     line-height: 1
-
-    +breakpoint($breakpoint__sm)
 
     span
       +breakpoint($breakpoint__sm)
@@ -29,24 +46,26 @@
         +staticStrike($color: $color__highlight)
 
       +breakpoint($breakpoint__sm - 10em)
-        transform: rotate(90deg)
-        display: inline-block
-        width: 1.5em
+        // transform: rotate(90deg)
+        // display: inline-block
+        // width: 1.5em
         font-size: 1.6em
-        left: 0
+        // left: 0
 
       +breakpoint($breakpoint__sm + 7em)
-        transform: rotate(0)
+        // transform: rotate(0)
         font-size: 1em
-        width: auto
-        margin: 0 0.75em
+        // width: auto
+        // margin: 0 0.75em
 
         &:last-child
-          margin-right: 0
+          // margin-right: 0
 
   &--footer
+    margin-top: 3em
+
     &__link
-      display: inline-block
+      // display: inline-block
       
       &.is-current
         +staticStrike($color: $color__white)

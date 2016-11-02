@@ -1,27 +1,21 @@
 .logo
   display: inline-block
   width: 12em
-  margin-bottom: 2em
+  // margin-bottom: 2em
 
   &--header
     position: absolute
-    transform: rotate(90deg)
-    right: 0
-    top: 0
-    width: 9em
-    float: right
-    // background-color: $color__highlight
     right: -7em
     top: 10em
     width: 19em
+    transform: rotate(90deg)
     
     +breakpoint($breakpoint__sm - 10em)
-      background-color: $color__white
-      width: 15em
-      float: left
-
-    &:hover
-      background-color: $color__highlight
+      position: static
+      left: 0
+      width: 10em
+      top: 0
+      transform: rotate(0)
 
     &__img
       fill: $color__black
