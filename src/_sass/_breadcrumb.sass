@@ -1,10 +1,15 @@
 .breadcrumb
   position: relative
   margin-bottom: 1em
-  margin-left: -1em
+  margin-left: -3em
+
+  &::before
+    content: '<'
 
   &__link
     +strike($color: $color__blue)
     font-family: $font__family--secondary
     font-size: 1em
     text-transform: uppercase
+    position: absolute
+    transform: rotate(90deg)

@@ -8,8 +8,17 @@
     font-size: 1.8em
     line-height: 1
 
+    +breakpoint($breakpoint__sm)
+
     span
-      font-size: 0.5em !important
+      +breakpoint($breakpoint__sm)
+        // font-size: 0.5em !important
+
+  &__divider
+    display: none
+
+    +breakpoint($breakpoint__sm + 7em)
+      display: inline
 
   &--header
     +breakpoint($breakpoint__sm - 10em)
