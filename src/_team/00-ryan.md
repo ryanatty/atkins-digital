@@ -16,12 +16,6 @@ While working as a bartender at the University's pub, Ryan became fascinated wit
 
 After graduating, Ryan saw how brands were built from the inside out with positions at InterWest Resorts in Whistler, BC, Starbucks in Seattle and Volcom, where he worked as a retail brand ambassador. Seeing the potential of marrying his love of web development with his love of brands, Ryan set up shop building elegant websites for clients seeking a sense of brand. A project with KODA lead to a position as the lead developer where his understanding of brands and modern design can truly benefit clients.
 
-With a keen eye for simple, elegant design and a true talent for delivering exceptional user experience, Ryan knows how to massage an existing site or build a new site to engage the client's audience. He understands it's not only the look and feel of the site that needs to be spot-on but the nitty gritty details as well.
-
-Having worked with well-known brands and start-ups in industries ranging from music, architecture and publishing to hospitality, wealth investment, and more, Ryan's quick to see the commonalities that great sites share.
-
-When Ryan isn't sitting in front of a screen, he is an active musician who plays bass and sings in a punk band. He uses the band as a creative outlet for developing new ideas of what it means to have a brand and how best to engage people to create a vibrant brand experience.
-
 <!--
 > <span style="transform: scale(1, -1);display:block;text-transform:uppercase;font-size:2em;">Don't</span>
 > <span style="transform: scale(1, -1);display:block;text-transform:uppercase;font-size:2em;">mistake</span>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="244px" height="34px" viewBox="0 0 244 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="atkins-digital" fill="#2A2A2A">
+            <g id="Group" transform="translate(0.000000, 7.000000)">
+                <polygon id="Shape" points="69 0.5 67.9 0.5 55.6 14.3 81.4 14.3"></polygon>
+                <polygon id="Shape" points="11.8 15 0 27 41.3 27 51.8 15"></polygon>
+                <polygon id="Shape" points="125.2 15 85.1 15 95.7 27 136.9 27"></polygon>
+            </g>
+            <g id="Group" transform="translate(167.000000, 0.000000)">
+                <rect id="Rectangle-path" x="0.5" y="0" width="8.7" height="34"></rect>
+                <path d="M76.3,22.8 L76.3,11 C76.3,7.5 68.3,5.7 53.5,5.7 L30.4,5.7 L30.4,28.3 L53.5,28.3 C68.3,28.3 76.3,26.4 76.3,22.8 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
