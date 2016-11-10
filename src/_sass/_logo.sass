@@ -1,24 +1,14 @@
 .logo
-  display: inline-block
-  width: 12em
-  // margin-bottom: 2em
+  display: block
+  width: 14em
 
   &--header
-    position: absolute
-    right: -7em
-    top: 10em
-    width: 19em
-    transform: rotate(90deg)
-    
-    +breakpoint($breakpoint__sm - 10em)
-      position: static
-      left: 0
-      width: 10em
-      top: 0
-      transform: rotate(0)
-
     &__img
+      margin: 5em 0
       fill: $color__black
+
+      &:hover
+        fill: $color__white
 
   &--footer
     &__img
