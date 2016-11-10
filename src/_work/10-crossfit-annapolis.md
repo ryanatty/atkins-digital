@@ -13,6 +13,8 @@ related:
   - 8
 permalink: /crossfit-annapolis/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Telling the story of the gym and the regulars who go there
+- What their mission is and the affect they have on eachother
+- Combination of dolley, steady cam, handheld
+- Color grading is higher contrast/bleach bypass reflect the sporty nature
+- In Annapolis

@@ -13,6 +13,9 @@ related:
   - 8
 permalink: /christine-and-bryce-wedding/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Going for handheld natural light vibe to capture the intimateness of the event.
+- Using the Zies lense help 
+- 60 frames a scond gives it a suspended in time feel
+- Anthropology vibe with coloring
+- Music was used to make it feel classic
+- Post processing light/glow streaks give it a dream memory vibe

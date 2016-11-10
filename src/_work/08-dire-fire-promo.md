@@ -13,6 +13,10 @@ related:
   - 4
 permalink: /dire-fire-promo/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Music video for the song Liquid
+- A mixture of life style, beach, sun
+- Used Alki to show life style, beach, sun
+- Shot in a pool to connect the Liquid name, Nirvana vibe
+- Band is like Sublime
+- Perl Jam was used as inspiration for the video
+- User arial stock video to give it a higher budget feeling, mix in other types of cinamatography

@@ -1,6 +1,5 @@
----
 work_id: 3
-title: "Mister Master promo"
+title: "Beta Climbing"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
 category: video
 thumb: http://i.giphy.com/4RG6kQSXVuMHm.gif
@@ -14,7 +13,11 @@ related:
   - 8
 permalink: /mister-master-promo/
 ---
-- Promo videos as short promos to use on social media to convey live energy of the band
-- Combo of live preformace, studio, and life style 
-- Coloring to make it look more grungy/indie, natural colors, depth
-- Looked at videos of Nirvana to give it a 90's vibe
+- Promo to highlight a climbing compitition and show the story of them putting on the event
+- Used a dolly, sholder rig to give it a higher budget feel, handheld 
+- Different kind of shots
+- Multiple cameras
+- 60 fps to give suspended feel
+- focus on the story of the Beta (hands, tools, holds)
+- Film it like a documentary, intimate feel, punk rock film making
+- Sets it apart from other climbing videos
