@@ -1,57 +1,44 @@
-<ul class="nav nav--{{ include.modifier }}">
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'web.html' or page.category == 'web' %} is-current {% endif %}"   
-      href="/web/"   
-      title="">Web</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item" style="display:none">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'graphic.html' or page.category == 'graphic' %} is-current {% endif %}"       
-      href="/graphic/"         
-      title="">Graphic</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'video.html' or page.category == 'video' %} is-current {% endif %}" 
-      href="/video/"
-      title="">Video</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item" style="display:none">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'photo.html' or page.category == 'photo' %} is-current {% endif %}"         
-      href="/photo/"
-      title="">Photo</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item" style="display:none">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'mixed-reality.html' %} is-current {% endif %}" 
-      href="/mixed-reality/"   
-      title="">Mixed Reality</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <span class="nav__divider">:</span>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'about.html' %} is-current {% endif %}"         
-      href="/about/"           
-      title="">About</a>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <span class="nav__divider">:</span>
-  </li>
-  <li class="nav__item nav--{{ include.modifier }}__item">
-    <a 
-      class="nav__link nav--{{ include.modifier }}__link 
-        {% if page.path == 'connect.html' %} is-current {% endif %}"       
-      href="mailto:hello@atkins.digital"         
-      title="">hello@atkins.digital</a>
-  </li>
-</ul>
+<nav class="nav nav--{{ include.modifier }}">
+  <a
+    class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'web.html' %} is-current {% endif %}"
+    href="/web/" 
+    title="">
+      <span class="nav__link-internal">1.Web Design</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'graphic.html' %} is-current {% endif %}" 
+    href="/graphic/" 
+    title="">
+      <span class="nav__link-internal">2.Grahic Design</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'video.html' %} is-current {% endif %}" 
+    href="/video/" 
+    title="">
+      <span class="nav__link-internal">3.Videography</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'photo.html' %} is-current {% endif %}" 
+    href="/photo/" 
+    title="">
+      <span class="nav__link-internal">4.Photography</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'mixed-reality.html' %} is-current {% endif %}" 
+    href="/mixed-reality/" 
+    title="">
+      <span class="nav__link-internal">5.Mixed Reality</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'about.html' %} is-current {% endif %}" 
+    href="/about/" 
+    title="">
+      <span class="nav__link-internal">6.About</span>
+  </a>
+  <a 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'connect.html' %} is-current {% endif %}" 
+    href="mailto:hello@atkins.digital" 
+    title="">
+      <span class="nav__link-internal">7.hello@atkins.digital</span>
+  </a>
+</nav>

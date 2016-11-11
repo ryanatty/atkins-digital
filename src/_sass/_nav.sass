@@ -1,55 +1,18 @@
 .nav
-  margin: 0 0 5em
-  padding: 0
-  list-style: none
+  width: 10em
   background: $color__white
   font-family: serif
   font-style: italic
-
-  &__item
-    +breakpoint($breakpoint__sm)
-      display: inline-block
-      margin: 0 0.25em
-
-      &:last-child
-        margin-right: 0
+  float: left
+  text-align: justify
+  padding: 0 0.3em
 
   &__link
     +strike
     padding: 0 4px
     font-size: 1.8em
     line-height: 0.9em
+    font-size: 1em
 
-  &__divider
-    display: none
-
-    +breakpoint($breakpoint__sm + 7em)
-      display: inline
-
-  &--header
-    +breakpoint($breakpoint__sm - 10em)
-      float: left
-
-    &__link
-      &.is-current
-        +staticStrike($color: $color__highlight)
-
-      +breakpoint($breakpoint__sm - 10em)
-        font-size: 1.6em
-
-      +breakpoint($breakpoint__sm + 7em)
-        font-size: 1em
-
-        &:last-child
-
-  &--footer
-    margin-top: 3em
-
-    &__link
-      
-      &.is-current
-        +staticStrike($color: $color__white)
-
-      +breakpoint($breakpoint__sm)
-        font-size: 1em
-        margin: 0 0.75em
+    &.is-current
+      font-weight: bold

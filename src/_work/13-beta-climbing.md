@@ -12,6 +12,7 @@ related:
   - 12
   - 8
 permalink: /mister-master-promo/
+published: true
 ---
 - Promo to highlight a climbing compitition and show the story of them putting on the event
 - Used a dolly, sholder rig to give it a higher budget feel, handheld 

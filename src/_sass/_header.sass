@@ -1,10 +1,19 @@
 .header
   @extend .clearfix
+  position: relative
   background-image: url('/assets/img/header-background.jpg')
   background-position: center
   background-size: cover
   border-top: 1em solid $color__black
   overflow: hidden
+  padding: 13em 0 3em
 
-  &--internal
-    // border-top: 0.75em solid $color__black
+  &.shade::before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    display: block
+    width: 100%
+    height: 100%
+    background: $color__black

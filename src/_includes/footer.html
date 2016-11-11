@@ -1,11 +1,21 @@
 <footer class="footer">
-  <a class="logo logo--footer" href="/">
-    <svg viewBox="0 0 267 34" class="logo__img logo--footer__img">
-      <use xlink:href="#logo"></use>
+  <div class="contained">
+    <!--
+    <svg viewBox="0 0 91 126" class="watermark watermark--abstract">
+      <use xlink:href="#abstract"></use>
     </svg>
-  </a>
+    -->
+    <img src="/assets/img/abstract.svg" alt="" style="width:5em">
+  </div>
+  <div class="contained">
+    <a class="logo logo--footer" href="/">
+      <svg viewBox="0 0 267 34" class="logo__img logo--footer__img">
+        <use xlink:href="#logo"></use>
+      </svg>
+    </a>
 
-  {% include nav.html modifier = 'footer' %}
+    {% include nav.html modifier = 'footer' %}
 
-  <p class="by-line">Atkins Digital :: Copyright 2016</p>
+    <p class="by-line">Atkins Digital :: Copyright 2016</p>
+  </div>
 </footer>

@@ -1,6 +1,6 @@
 ---
 work_id: 8
-title: "Dire Fire music video"
+title: "Dire Fire: Liquid"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
 category: video
 thumb: http://i.giphy.com/szfutuSxcWlyw.gif

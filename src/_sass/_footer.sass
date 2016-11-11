@@ -1,22 +1,12 @@
 .footer
   padding: 1em
   background: $color__black
-  background: linear-gradient(to bottom, #fdfdfd 0%, #c9ff23 100%)
+  background: $color__white
   text-align: center
 
-  &::before
-    content: ''
-    display: block
-    height: 6px
-    width: 200px
-    margin: 4em auto 4em
-    background: $color__black
-
-    +breakpoint($breakpoint__sm)
-      width: 300px
-
   .by-line
-    font-family: $font__family--secondary
+    font-family: serif
+    font-style: italic
     margin: 8em 0 1em
     text-align: center
     font-size: 0.5em
