@@ -1,12 +1,12 @@
 .header
   @extend .clearfix
   position: relative
-  background-image: url('/assets/img/header-background.jpg')
+  background-image: url('/assets/img/header-background-2.jpg')
   background-position: center
   background-size: cover
   border-top: 1em solid $color__black
   overflow: hidden
-  padding: 13em 0 3em
+  padding: 23em 0 5em
 
   &.shade::before
     content: ''
@@ -16,4 +16,41 @@
     display: block
     width: 100%
     height: 100%
-    background: $color__black
+    background: rgba($color__black, 0.9)
+
+.header-bottom-border
+  top: 30em
+  position: absolute
+
+  svg
+    width: 100%
+    fill: $color__white
+    top: 0
+    position: absolute
+
+  &__internal
+    position: absolute
+    width: 63em
+    left: 18em
+
+    &::before
+      content: ''
+      display: block
+      width: 110em
+      height: 3em
+      background: $color__white
+      transform-origin: top right
+      transform: translateX(-109em)
+
+    &::after
+      content: ''
+      display: block
+      width: 110em
+      height: 3em
+      background: $color__white
+      transform-origin: top left
+      transform: translateX(62em)
+      top: 0
+      position: absolute
+
+
