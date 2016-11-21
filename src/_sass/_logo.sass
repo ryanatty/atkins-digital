@@ -1,18 +1,23 @@
 .logo
   display: block
   width: 13.5em
+  float: right
   
   &__img
     fill: black
 
+    &:hover
+      fill: $color__white
+
   &--header
     position: relative
     z-index: 1
-    float: right
 
     &:hover
       .logo--header__img
-        fill: $color__white
+        // fill: $color__white
 
   &--footer
+    background: $color__black
+
     &__img
