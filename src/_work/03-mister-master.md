@@ -14,7 +14,4 @@ related:
   - 8
 permalink: /mister-master-promo/
 ---
-- Promo videos as short promos to use on social media to convey live energy of the band
-- Combo of live preformace, studio, and life style 
-- Coloring to make it look more grungy/indie, natural colors, depth
-- Looked at videos of Nirvana to give it a 90's vibe
+Taking creative direction from Nirvana videos for a definite 90’s vibe, these short promo videos shot specifically for social media convey the live energy of the band. Using natural and in-depth coloring achieves a grungy/indie feel. Intermixing live performance, studio and lifestyle shoots gives a behind-the-scenes look at the band to draw fans into their brand.

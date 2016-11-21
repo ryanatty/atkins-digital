@@ -14,11 +14,4 @@ related:
 permalink: /mister-master-promo/
 published: true
 ---
-- Promo to highlight a climbing compitition and show the story of them putting on the event
-- Used a dolly, sholder rig to give it a higher budget feel, handheld 
-- Different kind of shots
-- Multiple cameras
-- 60 fps to give suspended feel
-- focus on the story of the Beta (hands, tools, holds)
-- Film it like a documentary, intimate feel, punk rock film making
-- Sets it apart from other climbing videos
+Telling the backstory leading up to the climbing competition at Beta Bouldering sets this apart from other climbing videos. Artistic shots of hands, holds, and tools balanced against the high energy of the competitors gives the film a human interest angle. Shot at 60 frames per second for a suspended-in-time mood. The use of a handheld, dolly and shoulder rig creates a higher budget feel while lending a documentary approach for a more intimate vibe found in punk rock filmmaking. 

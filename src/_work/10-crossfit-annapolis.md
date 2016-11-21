@@ -13,8 +13,4 @@ related:
   - 8
 permalink: /crossfit-annapolis/
 ---
-- Telling the story of the gym and the regulars who go there
-- What their mission is and the affect they have on eachother
-- Combination of dolley, steady cam, handheld
-- Color grading is higher contrast/bleach bypass reflect the sporty nature
-- In Annapolis
+To tell the mission of the gym is to tell the story of the members who go there and the coaches who inspire them. Using a combination of dolly, steady cam, and handheld shots balances the high energy of the gym with the more personal stories of the members to show a supportive environment open to all levels of fitness. Use of a higher contrast/bleach bypass color grading adds to the sporty nature of the footage.

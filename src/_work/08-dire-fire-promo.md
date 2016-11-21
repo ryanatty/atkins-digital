@@ -13,10 +13,4 @@ related:
   - 4
 permalink: /dire-fire-promo/
 ---
-- Music video for the song Liquid
-- A mixture of life style, beach, sun
-- Used Alki to show life style, beach, sun
-- Shot in a pool to connect the Liquid name, Nirvana vibe
-- Band is like Sublime
-- Perl Jam was used as inspiration for the video
-- User arial stock video to give it a higher budget feeling, mix in other types of cinamatography
+It’s no coincidence that this music video brings to mind Nirvana, Pearl Jam and Sublime. Shot on location at Alki Beach, this lifestyle video is all about the beach, sun, and fun. Additional pool shots highlight the song title, Liquid, while including aerial stock video creates a more polished and higher budget feel.

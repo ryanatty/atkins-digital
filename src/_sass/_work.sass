@@ -9,15 +9,29 @@
       height: 6px
       width: 10px
       background: $color__red
+      float: right
 
     p
       font-size: 0.8em
       line-height: 1.5em
       font-style: italic
       color: $color__red
+      text-align: justify
 
     > p
       margin-top: 0
+
+      &::first-letter
+        font-size: 2em
+        font-family: serif
+
+      &::before
+        content: ''
+        display: block
+        width: 10em
+        height: 10em
+        float: left
+        shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%)
 
     a
       +strike
@@ -33,3 +47,5 @@
 
   &__item
     margin-bottom: 2em
+    position: relative
+    z-index: 2

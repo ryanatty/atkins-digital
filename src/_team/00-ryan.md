@@ -1,7 +1,7 @@
 ---
 name: Ryan Atkins
 title: "Web Desgin/Dev, Graphic Design"
-pic: "/assets/img/ryan.jpg"
+pic: "/assets/img/ryan-3.jpg"
 links:
   - label: ryan@atkins.digital
     href: mailto:ryan@atkins.digital

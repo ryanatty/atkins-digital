@@ -1,7 +1,7 @@
 ---
 name: Kevin Atkins
 title: "Directory of Photography, Editor, Motion Graphic Designer"
-pic: "/assets/img/kevin.jpg"
+pic: "/assets/img/kevin-2.jpg"
 links:
   - label: kevin@atkins.digital
     href: mailto:kevin@atkins.digital
