@@ -2,6 +2,12 @@
   position: absolute
   width: 90em
   mix-blend-mode: saturation
+  z-index: 100
+  top: 44em
+  pointer-events: none
+
+  +breakpoint($breakpoint__sm)
+    top: auto
 
   &__img
     position: absolute

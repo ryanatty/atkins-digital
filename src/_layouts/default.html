@@ -109,9 +109,13 @@
       </svg>
     </div>
 
-    {% assign random = "1|2|3|4|5" | split: "|" %}
+    {% assign random = "1|2|3|4|5" | split: "|" | sample %}
 
-    <div class="overlay overlay--{{ random | sample }}" id="js-overlay"></div>
+    {% if page.path == 'about.html' %}
+      {% assign random = 2 %}
+    {% endif %}
+
+    <div class="overlay overlay--{{ random }}" id="js-overlay"></div>
 
     {% include header.html %}
 
