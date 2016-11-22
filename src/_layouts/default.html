@@ -109,7 +109,9 @@
       </svg>
     </div>
 
-    <div class="overlay" id="js-overlay"></div>
+    {% assign random = "1|2|3|4|5" | split: "|" %}
+
+    <div class="overlay overlay--{{ random | sample }}" id="js-overlay"></div>
 
     {% include header.html %}
 
