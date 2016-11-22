@@ -1,7 +1,12 @@
 .bio
-  margin-bottom: 2em
+  &:first-child
+    margin-bottom: 8em
 
   &__name
+    &--first
+      font-size: 2em
+      text-transform: uppercase
+      font-weight: bold
 
   &__title
     font-family: 'Anonymous Pro', monospace
@@ -23,7 +28,8 @@
     //   position: relative
 
   &__story
-    margin-bottom: 4em
+    // margin-bottom: 4em
+    column-count: 2
 
     &::after
       content: ''
@@ -31,14 +37,50 @@
       height: 6px
       width: 10px
       background: $color__red
+      float: right
+
+    > p
+      margin-top: 0
+
+      &::first-letter
+        // font-size: 2em
+        // font-family: serif
+        padding-left: 5em
 
     p
       font-size: 0.8em
       line-height: 1.5em
       font-style: italic
       color: $color__red
+      // word-break: break-all
+      text-align: justify
+      // font-family: 'Imroman', serif
 
-      &:last-child
+      // &:first-child::before
+      //   content: ''
+      //   display: block
+      //   width: 10em
+      //   height: 10em
+      //   float: left
+      //   shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%)
+
+      // &:nth-child(2)::before
+      //   content: ''
+      //   display: block
+      //   width: 5em
+      //   height: 10em
+      //   float: right
+      //   shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%)
+
+      // &:nth-child(3)::before
+      //   content: ''
+      //   display: block
+      //   width: 8em
+      //   height: 19em
+      //   float: left
+      //   shape-outside: polygon(0 25%, 100% 40%, 90% 100%, 0 100%)
+
+      // &:last-child
         // content: ''
         // display: block
         // height: 6px

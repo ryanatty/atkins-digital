@@ -1,14 +1,15 @@
 ---
-name: Ryan Atkins
+f_name: Ryan
+l_name: Atkins
 title: "Web Desgin/Dev, Graphic Design"
 pic: "/assets/img/ryan-3.jpg"
 links:
   - label: ryan@atkins.digital
     href: mailto:ryan@atkins.digital
-  - label: LinkedIn
-    href: https://instagram.com/kins_ryan
-  - label: Instagram
-    href: https://instagram.com/kins_ryan
+  - label: linkedin.com/in/ryanatty
+    href: https://www.linkedin.com/in/ryanatty
+  - label: instagram.com/ryan__atkins
+    href: https://instagram.com/ryan__atkins
 ---
 A computer geek for as far back as he can remember, Ryan got his first paying gig as a web developer at the age of 16 for a start-up company where he created online user tutorials. His love of web development grew throughout high school and continued on into college where he studied Computer Science at Simon Frasier University in British Columbia.
 

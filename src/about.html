@@ -6,16 +6,20 @@ permalink: /about/
 {% for person in site.team %}
   <div class="bio">
     <div class="fukol-grid">
-      <div class="layout__copy">
+      <div class="layout__copy layout__copy--bio">
 
-        <h2 class="bio__name">{{ person.name }}</h2>
+        <h2 class="bio__name">
+          <span class="bio__name--first">{{ person.f_name }}</span>
+          <span class="bio__name--last">{{ person.l_name }}</span>
+        </h2>
+
         <p class="bio__title">{{ person.title }}</p>
 
         <div class="bio__story">
           {{ person.content }}
         </div>
 
-        <!--
+        {% comment %}
         <h3>Connect</h3>
         <ul class="bio__links-list">
           {% for link in person.links %}
@@ -24,7 +28,7 @@ permalink: /about/
             </li>
           {% endfor %}
         </ul>
-        -->
+        {% endcomment %}
 
       </div>
       <div class="layout__media">
