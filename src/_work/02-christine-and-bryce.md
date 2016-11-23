@@ -13,4 +13,4 @@ related:
   - 8
 permalink: /christine-and-bryce-wedding/
 ---
-Inspired by look and feel of the Anthropologie brand, this wedding video shot on-location in a vineyard estate in Sedona, AZ, captures the intimacy of the event by using a handheld camera shot with a Zeiss lens using only natural light. Shot at 60 frames per second for a suspended-in-time feeling, the post processing glow streaks evoke a dreamlike memory, while the music lends a classic vibe.
+Inspired by the look and feel of the Anthropologie brand, this wedding video shot on-location in a vineyard estate in Sedona, AZ, captures the intimacy of the event by using a handheld camera shot with a Zeiss lens using only natural light. Shot at 60 frames per second for a suspended-in-time feeling, the post processing glow streaks evoke a dreamlike memory, while the music lends a classic vibe.

@@ -1,6 +1,6 @@
 ---
 work_id: 3
-title: "Mister Master promo"
+title: "Mister Master"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
 category: video
 thumb: http://i.giphy.com/4RG6kQSXVuMHm.gif

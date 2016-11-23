@@ -8,7 +8,9 @@ layout: default
     </div>
   {% endif %}
 
-  <h1>{{ page.title }}</h1>
+  {% if page.is_work != true %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
 </div>
 
 <div class="contained">

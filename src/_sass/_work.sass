@@ -7,8 +7,26 @@
       margin-bottom: 0
 
     &__story
+
       p
         max-width: 20em
+
+    &__title
+      height: 3em
+      font-size: 2em
+      letter-spacing: 0.5em
+
+  &--full
+    &__story
+      column-count: 3
+      column-gap: 10em
+
+    &__title
+      font-size: 3em
+      margin-bottom: 2em
+      letter-spacing: 1em
+      color: $color__white
+      font-family: Akrobat
       
   &__story
     text-align: right
@@ -28,13 +46,21 @@
       font-style: italic
       color: $color__red
       text-align: justify
+      // font-family: 'dings'
 
     > p
       margin-top: 0
+      
+      .first-word
+        font-family: Zuric
+        font-size: 3em
+        padding-left: 5em
+        letter-spacing: -0.15em
 
-      &::first-letter
-        font-size: 2em
-        font-family: serif
+      // &::first-letter
+      //   font-size: 5em
+      //   font-family: serif
+      //   padding-left: 5em
 
       // &::before
       //   content: ''
@@ -52,12 +78,11 @@
         background-color: $color__highlight
 
   &__title
-    font-size: 4em
+    // font-size: 2em
     line-height: 0.8em
     font-weight: bold
     text-transform: uppercase
     text-align: left
-    height: 2em
 
   &__links-list
     list-style: none
@@ -68,3 +93,6 @@
     margin-bottom: 2em
     position: relative
     z-index: 2
+
+    &:last-child
+      margin-bottom: 0

@@ -109,11 +109,13 @@
       </svg>
     </div>
 
-    {% assign random = "1|2|3|4|5" | split: "|" | sample %}
+    {% assign random = "1|2|3|4|5|6" | split: "|" | sample %}
 
+    {% comment %}
     {% if page.path == 'about.html' %}
       {% assign random = 2 %}
     {% endif %}
+    {% endcomment %}
 
     <div class="overlay overlay--{{ random }}" id="js-overlay"></div>
 
@@ -139,6 +141,15 @@
         });
 
         $('#js-overlay').height($('body').height());
+
+        $('p').each(function() {
+          var word = $(this).html();
+          var index = word.indexOf(' ');
+          if(index == -1) {
+            index = word.length;
+          }
+          $(this).html('<span class="first-word">' + word.substring(0, index) + '</span>' + word.substring(index, word.length));
+        });
       });
 
       function initialize () {
@@ -180,6 +191,7 @@
 
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>

@@ -1,31 +1,26 @@
 ---
 layout: page
 ---
-<div class="work">
-  <div class="fukol-grid">
-    <div class="layout__copy">
-      <div class="work__story">
-        {{ content }}
-      </div>
-
-      {% comment %}
-        <h3>More Info</h3>
-        <ul class="work__links-list">
-          {% for link in page.links %}
-            <li class="work__links-item">
-              <a class="work__links-link" href="{{ link.href }}">{{ link.label }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      {% endcomment %}
-
+<div class="work work--full">
+  <h1 class="work__title work--full__title">{{ page.title }}</h1>
+    <div class="work__story work--full__story">
+      {{ content }}
     </div>
-    <div class="layout__media">
-      {% for item in page.media %}
-        <div class="work__item">
-          {{ item }}
-        </div>
-      {% endfor %}
+
+    {% comment %}
+      <h3>More Info</h3>
+      <ul class="work__links-list">
+        {% for link in page.links %}
+          <li class="work__links-item">
+            <a class="work__links-link" href="{{ link.href }}">{{ link.label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endcomment %}
+
+  {% for item in page.media %}
+    <div class="work__item">
+      {{ item }}
     </div>
-  </div>
+  {% endfor %}
 </div>

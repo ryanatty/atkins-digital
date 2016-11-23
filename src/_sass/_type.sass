@@ -21,25 +21,29 @@
   src: url('/assets/fonts/imroman/lmromanslant10-regular.woff') format('woff')
   // font-style: italic
 
-// @font-face 
-//   font-family: 'Zuric'
-//   src: url('/assets/fonts/zuric/322123_2_0.woff') format('woff'), url('/assets/fonts/zuric/322123_2_0.woff2') format('woff2')
-// 
-// @font-face 
-//   font-family: 'Zuric'
-//   src: url('/assets/fonts/zuric/322123_1_0.woff') format('woff'), url('/assets/fonts/zuric/322123_1_0.woff2') format('woff2')
-//   font-style: italic
-// 
-// @font-face 
-//   font-family: 'Zuric'
-//   src: url('/assets/fonts/zuric/322123_0_0.woff') format('woff'), url('/assets/fonts/zuric/322123_0_0.woff2') format('woff2')
-//   font-weight: 400
-//   font-style: italic
-// 
-// @font-face 
-//   font-family: 'Zuric'
-//   src: url('/assets/fonts/zuric/322123_3_0.woff') format('woff'), url('/assets/fonts/zuric/322123_3_0.woff2') format('woff2')
-//   font-weight: 400
+@font-face 
+  font-family: 'dings'
+  src: url('/assets/fonts/wingdings.woff') format('woff')
+
+@font-face 
+  font-family: 'Zuric'
+  src: url('/assets/fonts/zuric/322123_2_0.woff') format('woff'), url('/assets/fonts/zuric/322123_2_0.woff2') format('woff2')
+
+@font-face 
+  font-family: 'Zuric'
+  src: url('/assets/fonts/zuric/322123_1_0.woff') format('woff'), url('/assets/fonts/zuric/322123_1_0.woff2') format('woff2')
+  font-style: italic
+
+@font-face 
+  font-family: 'Zuric'
+  src: url('/assets/fonts/zuric/322123_0_0.woff') format('woff'), url('/assets/fonts/zuric/322123_0_0.woff2') format('woff2')
+  font-weight: 400
+  font-style: italic
+
+@font-face 
+  font-family: 'Zuric'
+  src: url('/assets/fonts/zuric/322123_3_0.woff') format('woff'), url('/assets/fonts/zuric/322123_3_0.woff2') format('woff2')
+  font-weight: 400
 
 body
   font-family: $font__family--primary
@@ -53,8 +57,13 @@ h1, h2, h3
 
 h1
   font-weight: bold
-  font-size: 3em
-  margin-bottom: 1em
+  font-size: 5em
+  font-family: Akrobat
+  margin-bottom: 2em
+  background: $color__black
+  padding-bottom: 1em
+  color: $color__white
+  letter-spacing: 1em
 
   &::after
     content: ''
@@ -63,6 +72,7 @@ h1
     height: 6px
     margin-top: 1em
     background-color: $color__black
+    position: absolute
 
 h3
   margin-bottom: 0.5em
