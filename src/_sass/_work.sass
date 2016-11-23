@@ -18,8 +18,9 @@
 
   &--full
     &__story
-      column-count: 3
-      column-gap: 10em
+      +breakpoint($breakpoint__sm)
+        column-count: 3
+        column-gap: 10em
 
     &__title
       font-size: 3em
@@ -93,6 +94,9 @@
     margin-bottom: 2em
     position: relative
     z-index: 2
+
+    img
+      max-width: 100%
 
     &:last-child
       margin-bottom: 0
