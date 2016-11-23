@@ -1,4 +1,15 @@
 .work
+  
+  &--summary
+    margin-bottom: 4em
+
+    &:last-child
+      margin-bottom: 0
+
+    &__story
+      p
+        max-width: 20em
+      
   &__story
     text-align: right
     margin-bottom: 4em
@@ -25,13 +36,13 @@
         font-size: 2em
         font-family: serif
 
-      &::before
-        content: ''
-        display: block
-        width: 10em
-        height: 10em
-        float: left
-        shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%)
+      // &::before
+      //   content: ''
+      //   display: block
+      //   width: 10em
+      //   height: 10em
+      //   float: left
+      //   shape-outside: polygon(0 0, 100% 0, 90% 100%, 0 100%)
 
     a
       +strike
@@ -39,6 +50,14 @@
 
       &::before
         background-color: $color__highlight
+
+  &__title
+    font-size: 4em
+    line-height: 0.8em
+    font-weight: bold
+    text-transform: uppercase
+    text-align: left
+    height: 2em
 
   &__links-list
     list-style: none

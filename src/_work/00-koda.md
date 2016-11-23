@@ -1,6 +1,6 @@
 ---
 work_id: 0
-title: "KODA website"
+title: "KODA"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
 category: web
 thumb: /assets/img/koda-thumb.jpg

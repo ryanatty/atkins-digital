@@ -3,10 +3,8 @@ layout: page
 ---
 {% assign category = page.path | remove: '.html' %}
 
-<div class="fukol-grid">
-  {% for item in site.work %}
-    {% if item.category == category %}
-      {% include work-summary.html work = item %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% for item in site.work %}
+  {% if item.category == category %}
+    {% include work-summary.html work = item %}
+  {% endif %}
+{% endfor %}

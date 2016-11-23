@@ -1,5 +1,12 @@
-<a class="work-summary" href="{{ include.work.permalink }}" title="">
-  <img class="work-summary__thumb" src="{{ include.work.thumb }}" alt="">
-  <h3 class="work-summary__title"><strong class="work-summary__category">{{ include.work.category }} :</strong> {{ include.work.title }}</h3>
-  <p class="work-summary__text">{{ include.work.summary }}</p>
-</a>
+<div class="work--summary">
+  <div class="fukol-grid">
+    <div class="">
+      <img class="work__thumb" src="{{ include.work.thumb }}" alt=="">
+    </div>
+    <div class="work__story work--summary__story">
+      <h2 class="work__title">{{ include.work.title }}</h2>
+        {{ include.work.content | truncate: 100 }}
+        <a class="work__more-link" href="{{ include.work.permalink }}" title="">[more]</a>
+    </div>
+  </div>
+</div>

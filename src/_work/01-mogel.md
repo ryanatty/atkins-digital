@@ -1,6 +1,6 @@
 ---
 work_id: 1
-title: "Mogel website"
+title: "Mogel"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
 category: web
 thumb: /assets/img/mogel-thumb.jpg
