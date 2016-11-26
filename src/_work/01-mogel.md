@@ -16,4 +16,10 @@ related:
  - 8
 permalink: /mogel-webiste/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- Mogel is a staffing agency, so their website needed to be modern looking/working so as to convey expereice in that field
+- Hired to develop the website from photoshop mockups
+- Designs were not 100%, so we offered opinion on how best to achive the goals
+- Used simple css grid to layout content in consistent maner accross all pages
+- Used styling that relied on colors and text instead of images to keep load times quick
+- Created an inovative mobile nav that inhanced the user's experience
+- used css animations to enhance the user's experience and draw attention to content

@@ -17,4 +17,10 @@ related:
 permalink: /koda-website/
 published: true
 ---
-Our brief was to create an immersive e-commerce site that challenged the traditional look and feel of online fashion stores, but at the same time, make it easier for customers to complete their transaction with the brand and encourage brand loyalty.
+- KODA is a marketing agency specializing in luxury brands, so website needed to convay luxury
+- hired to develop and contribute to the redesign of the site
+- features blocks of content that work well wit
+- A simple css grid used to layout content
+- Used simple styling which allowed contnt to take center stage
+- Relyed on fonts and SVG instead of images
+- css animations to enhacnce the user's experience
