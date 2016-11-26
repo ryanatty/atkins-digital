@@ -142,6 +142,10 @@
 
         $('#js-overlay').height($('body').height());
 
+        /************************************************************
+         * Wrap each first word in a with a span
+         * https://webdesignerhut.com/style-first-letter-word-line-and-paragraph-with-css-and-jquery/
+        /************************************************************/
         $('p').each(function() {
           var word = $(this).html();
           var index = word.indexOf(' ');
@@ -150,6 +154,38 @@
           }
           $(this).html('<span class="first-word">' + word.substring(0, index) + '</span>' + word.substring(index, word.length));
         });
+
+        /************************************************************
+         * Wrap each line of text in a span
+         * http://stackoverflow.com/a/15831491
+        /************************************************************/
+        // $('p').each(function () {
+        //   var obj = $(this);
+        //   var html = obj.html().replace(/(\S+\s*)/g, "<span class=\"word\">$1</span>");
+        //   obj.html(html);
+        // });
+
+        // function highlight () {
+        //   var offset = 0;
+        //   var colorIndex = 0;
+        //   var colors = ["#ccc","#000"];
+        //   var spans = $(".stripe span");
+        //   
+        //   for (var i = 0; i < spans.length; i++) {
+        //     var newOffset = spans[i].offsetTop;  
+        //       
+        //     if (newOffset !== offset) {
+        //       colorIndex = colorIndex === 0 ? 1 : 0;
+        //       offset = newOffset;
+        //    }
+        //       
+        //    // spans[i].style.color = colors[colorIndex];
+        //   }
+        // }
+
+        // highlight();
+
+        // $(window).on('resize', highlight);
       });
 
       function initialize () {

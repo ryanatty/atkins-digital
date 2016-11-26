@@ -8,30 +8,10 @@
   +breakpoint($breakpoint__sm)
     margin-top: 0.9em
 
-  &--header
-    +breakpoint($breakpoint__sm)
-      padding-left: 0.2em
-      background: $color__black
-
-    &__link
-      +strike
-      color: $color__white
-
-      &::before
-        background-color: $color__white !important
-
-    &__divider
-      color: $color__white
-
-  &--footer
-    &__link
-      &:hover
-        color: $color__white
-
   &__link
+    display: block
     line-height: 0.9em
     font-size: 2em
-    display: block
 
     +breakpoint($breakpoint__sm)
       font-size: 1em
@@ -50,6 +30,65 @@
 
   &__divider
     display: none
+    color: $color__white
 
     +breakpoint($breakpoint__sm)
       display: inline
+
+  &--header
+    position: relative
+    z-index: 100
+    width: 10em
+
+    +breakpoint($breakpoint__sm)
+      margin-top: -2em
+
+    &__link
+      +strike
+      display: block
+      float: left
+      font-style: normal
+      font-size: 2.5em
+      line-height: 0.7em
+      padding: 0
+      color: $color__black
+
+      &:nth-child(1)
+        font-family: serif
+        font-style: italic
+
+      &:nth-child(2)
+        font-family: Akrobat
+        font-weight: bold
+
+      &:nth-child(3)
+        font-family: Akrobat
+
+      &:nth-child(4)
+        font-family: serif
+        font-weight: bold
+        font-style: italic
+
+      &:nth-child(5)
+        font-family: Akrobat
+
+      &:last-child
+        font-style: italic
+        font-size: 2em
+
+      &::before
+        // background-color: $color__white !important
+
+    &__link-internal
+      background-color: rgba(0,0,0,0)
+      line-height: 0.7em
+
+    &__divider
+      display: none
+
+  &--footer
+    &__link
+      &:hover
+        color: $color__white
+
+

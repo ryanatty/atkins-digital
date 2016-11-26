@@ -3,31 +3,31 @@
     class="nav__link nav--{{ include.modifier }}__link {% if page.category == 'web' %} is-current {% endif %}"
     href="/web/" 
     title="">
-      <span class="nav__link-internal">Web</span></a>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">Web</span></a>
   <a 
-    class="nav__link nav--{{ include.modifier }}__link{% if page.category == 'graphic' %} is-current {% endif %}" 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.category == 'graphic' %} is-current {% endif %}" 
     href="/graphic/" 
     title="">
-      <span class="nav__link-internal">Graphic</span></a>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">Graphic</span></a>
   <a 
-    class="nav__link nav--{{ include.modifier }}__link{% if page.category == 'video' %} is-current {% endif %}" 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.category == 'video' %} is-current {% endif %}" 
     href="/video/" 
     title="">
-      <span class="nav__link-internal">Video</span></a>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">Video</span></a>
 
   <a 
-    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'photo.html' %} is-current {% endif %}" 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'photo.html' %} is-current {% endif %}" 
     href="/photo/" 
     title="">
-      <span class="nav__link-internal">Photo</span>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">Photo</span>
   </a>
 
   {% comment %}
   <a 
-    class="nav__link nav--{{ include.modifier }}__link{% if page.path == 'mixed-reality.html' %} is-current {% endif %}" 
+    class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'mixed-reality.html' %} is-current {% endif %}" 
     href="/mixed-reality/" 
     title="">
-      <span class="nav__link-internal">Mixed Reality</span>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">Mixed Reality</span>
   </a>
   {% endcomment %}
 
@@ -35,11 +35,11 @@
     class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'about.html' %} is-current {% endif %}" 
     href="/about/" 
     title="">
-      <span class="nav__link-internal">About</span></a>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">About</span></a>
   <span class="nav__divider nav--{{ include.modifier }}__divider">:</span>
   <a 
     class="nav__link nav--{{ include.modifier }}__link {% if page.path == 'connect.html' %} is-current {% endif %}" 
     href="mailto:hello@atkins.digital" 
     title="">
-      <span class="nav__link-internal">hello@atkins.digital</span></a>
+      <span class="nav__link-internal nav--{{ include.modifier }}__link-internal">hello@atkins.digital</span></a>
 </nav>
