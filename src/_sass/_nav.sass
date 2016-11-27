@@ -37,7 +37,7 @@
 
   &--header
     position: relative
-    z-index: 100
+    // z-index: 100
     width: 10em
 
     +breakpoint($breakpoint__sm)
@@ -46,6 +46,7 @@
     &__link
       +strike
       display: block
+      position: relative
       float: left
       font-style: normal
       font-size: 2.5em
@@ -56,10 +57,12 @@
       &:nth-child(1)
         font-family: serif
         font-style: italic
+        transform: rotate(-2deg)
 
       &:nth-child(2)
         font-family: Akrobat
         font-weight: bold
+        transform: rotate(2deg)
 
       &:nth-child(3)
         font-family: Akrobat
@@ -68,13 +71,16 @@
         font-family: serif
         font-weight: bold
         font-style: italic
+        transform: rotate(-2deg)
 
       &:nth-child(5)
         font-family: Akrobat
 
       &:last-child
         font-style: italic
+        font-family: zuric
         font-size: 2em
+        transform: rotate(-2deg)
 
       &::before
         // background-color: $color__white !important
