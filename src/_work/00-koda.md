@@ -17,10 +17,4 @@ related:
 permalink: /koda-website/
 published: true
 ---
-- KODA is a marketing agency specializing in luxury brands, so website needed to convay luxury
-- hired to develop and contribute to the redesign of the site
-- features blocks of content that work well wit
-- A simple css grid used to layout content
-- Used simple styling which allowed contnt to take center stage
-- Relyed on fonts and SVG instead of images
-- css animations to enhacnce the user's experience
+A marketing agency for luxury brands, KODA required a mobile-first approach with the redesign of their website. Content blocks in a responsive CCS grid enables the essential information to appear in a compelling way on the smallest of screens while allowing for more design features when viewed on a tablet, laptop or desktop. Using a content-centric approach, the design evolved organically in the browser without the need for mockups. Simple styling ensured the content takes center stage while enabling faster load times through careful selection of fonts and vector images. CSS animations enhance the user experience as content flies in from the side to direct the eye to the proper flow of information.

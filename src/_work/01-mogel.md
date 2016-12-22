@@ -16,10 +16,4 @@ related:
  - 8
 permalink: /mogel-webiste/
 ---
-- Mogel is a staffing agency, so their website needed to be modern looking/working so as to convey expereice in that field
-- Hired to develop the website from photoshop mockups
-- Designs were not 100%, so we offered opinion on how best to achive the goals
-- Used simple css grid to layout content in consistent maner accross all pages
-- Used styling that relied on colors and text instead of images to keep load times quick
-- Created an inovative mobile nav that inhanced the user's experience
-- used css animations to enhance the user's experience and draw attention to content
+Directed to individuals looking for new careers as well as companies desiring qualified candidates, Mogel wanted a mobile-first approach that was fresh, simple and modern without the heavy look and feel of a traditional staffing agency. Developed from client-approved Photoshop markups, the project needed to be consistent with the initial vision. And it was. The simple CCS grid assured content appeared consistently screen to screen whether viewed on a phone, tablet, or larger screens. A simple style was achieved through colors and text rather than images to ensure quick load times. Innovative mobile navigation conveyed the fresh approach of the company while CSS animations presented in an unexpected way enhance the user experience.
