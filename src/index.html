@@ -2,10 +2,18 @@
 layout: default
 ---
 <div class="contained">
-  <h1>Selected Work</h1>
-  <div class="fukol-grid">
-    {% for item in site.work %}
-      {% include work-summary.html work = item %}
-    {% endfor %}
-  </div>
+  <h1>Digital creative</h1>
+  <h2>Recent Web Projects</h2>
+  {% include recent-work-row.html 
+    sample_1_id = 0 
+    sample_2_id = 1 
+    sample_3_id = 11 
+  %}
+
+  <h2>Recent Video Projects</h2>
+  {% include recent-work-row.html 
+    sample_1_id = 2 
+    sample_2_id = 3 
+    sample_3_id = 8 
+  %}
 </div>

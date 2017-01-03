@@ -24,6 +24,15 @@
         &::before
           content: '*'
 
+  &--footer__link
+    &.is-current
+      .nav__link-internal
+        &::before
+          background: $color__white
+
+        &:hover::before
+          color: $color__black
+
   &__link-internal
     background-color: $color__black
     line-height: 1.3em
@@ -88,12 +97,14 @@
     &__link-internal
       +strike($color: $color__white)
       background-color: $color__black
-      padding: 0 1.25em 0 0.75em
+      padding: 0 0.75em
 
     &__divider
       display: none
 
   &--footer
     &__link
+      padding: 0
+
       &:hover
         color: $color__white

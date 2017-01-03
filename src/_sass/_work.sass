@@ -1,26 +1,42 @@
 .work
-  
+  &__title
+    font-family: Akrobat
+    font-style: normal
+
   &--summary
     margin-bottom: 4em
+    max-width: 50em
 
     &:last-child
       margin-bottom: 0
 
     &__story
+      padding-left: 1em
 
       +breakpoint($breakpoint__sm)
+        padding-left: 1em
+
         p
-          max-width: 20em
+          max-width: 30em
+
+      +breakpoint(40em)
+        padding-left: 5em
 
     &__title
-      height: 3em
       font-size: 2em
       letter-spacing: 0.5em
       margin: 1em 0
 
+      +breakpoint($breakpoint__sm)
+        height: 3em
+
   &--full
     &__story
       +breakpoint($breakpoint__sm)
+        column-count: 2
+        column-gap: 5em
+
+      +breakpoint(50em)
         column-count: 3
         column-gap: 10em
 
@@ -29,13 +45,12 @@
       margin-bottom: 2em
       letter-spacing: 1em
       color: $color__white
-      font-family: Akrobat
       
   &__story
     text-align: right
 
     +breakpoint($breakpoint__sm)
-      margin-bottom: 4em
+      // margin-bottom: 4em
 
     &::after
       content: ''
@@ -103,6 +118,7 @@
   &__links-link
 
   &__item
+    margin-top: 3em
     margin-bottom: 2em
     position: relative
     z-index: 2

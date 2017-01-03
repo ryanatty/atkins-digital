@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>//aD</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -126,14 +126,15 @@
     {% include header.html %}
 
     <div class="main {% if page.is_work == true %} main--work {% endif %}">
-      {{ content }}
+      <div class="main__content">
+        {{ content }}
+
+        {% include footer.html %}
+      </div>
     </div>
 
-    {% include footer.html %}
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="/assets/js/map-styles.json"></script>
 
     <script>
       $(function () {
@@ -144,13 +145,19 @@
           $('#js-header').removeClass('shade');
         });
 
-        $('#js-overlay').height($('body').height());
+        setTimeout(function () {
+          $('#js-overlay').height($('body').height());
+        }, 100);
+
+        $(window).on('resize', function () {
+          $('#js-overlay').height($('body').height());
+        });
 
         /************************************************************
          * Wrap each first word in a with a span
          * https://webdesignerhut.com/style-first-letter-word-line-and-paragraph-with-css-and-jquery/
         /************************************************************/
-        $('p').each(function() {
+        $('.work__story p').each(function() {
           var word = $(this).html();
           var index = word.indexOf(' ');
           if(index == -1) {
@@ -191,45 +198,6 @@
 
         // $(window).on('resize', highlight);
       });
-
-      function initialize () {
-        var mapCanvas = document.getElementById('map');
-
-        // map style from https://snazzymaps.com/editor/edit-my-style/35554
-        // var mapStyles = [{"featureType":"all","elementType":"geometry","stylers":[{"color":"#f4a61c"}]},{"featureType":"all","elementType":"geometry.fill","stylers":[{"color":"#ec7c18"}]},{"featureType":"all","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"all","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"gamma":0.01},{"lightness":20},{"saturation":"10"},{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"saturation":-31},{"lightness":-33},{"weight":"1.50"},{"gamma":0.8},{"color":"#ff9952"},{"visibility":"off"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"administrative.neighborhood","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"administrative.land_parcel","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"lightness":30},{"saturation":30}]},{"featureType":"poi","elementType":"geometry","stylers":[{"saturation":20}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"lightness":20},{"saturation":-20}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":10},{"saturation":-30}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"saturation":25},{"lightness":25}]},{"featureType":"road.arterial","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"lightness":-20}]}];
-
-        var latLong = new google.maps.LatLng(47.6045052, -122.3327927);
-
-        var mapOptions = {
-          center:           latLong,
-          // draggable:        !Modernizr.touch,
-          zoom:             14,
-          mapTypeId:        google.maps.MapTypeId.ROADMAP,
-          disableDefaultUI: true,
-          styles:           mapStyles
-        }
-
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-
-        // var marker = new google.maps.Marker({
-        //   position: smLatLong,
-        //   map: map,
-        //   icon: {
-        //     url: '/assets/images/map-marker.png',
-        //     // scaledSize: new google.maps.Size('70', '70', 'px'),
-        //   }
-        // });
-
-        // google.maps.event.addListener(marker, 'click', function () {
-        //   window.open('https://goo.gl/maps/d3C25');
-        // });
-
-        google.maps.event.addDomListener(window, 'resize', function () {
-          map.setCenter(latLong);
-        });
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
 

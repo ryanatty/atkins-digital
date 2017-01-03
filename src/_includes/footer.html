@@ -1,13 +1,6 @@
 <footer class="footer">
-    <!--
-    <svg viewBox="0 0 91 126" class="watermark watermark--abstract">
-      <use xlink:href="#abstract"></use>
-    </svg>
-    <img src="/assets/img/abstract.svg" alt="" style="width:5em">
-    -->
 
   <div class="contained" style="overflow:hidden">
-
     <a class="logo logo--footer" href="/" alt="">
       <svg viewBox="0 0 249 34" class="logo__img logo--footer__img">
         <use xlink:href="#logo"></use>
@@ -15,12 +8,13 @@
     </a>
 
     {% include nav.html modifier = 'footer' %}
-
   </div>
+
   <div class="footer__sub">
     <div class="contained">
       <!--<a href="https://instagram.com/kinsdigital">@kinsdigital</a>-->
       <p class="by-line">Atkins Digital | Copyright {{ site.time | date: '%Y' }}</p>
     </div>
   </div>
+
 </footer>

@@ -1,11 +1,15 @@
 .breadcrumb
-  position: relative
-  margin-bottom: 4em
-  margin-left: -3em
+  margin-bottom: 2em
+
+  +breakpoint($breakpoint__sm)
+    position: relative
+    margin-left: -3em
 
   &__link
     +strike
     font-size: 1em
     text-transform: uppercase
-    position: absolute
     text-decoration: underline
+
+    +breakpoint($breakpoint__sm)
+      position: absolute

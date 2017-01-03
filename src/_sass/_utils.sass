@@ -70,7 +70,23 @@ $color__overlay--6: #026e16
 .main
   position: relative
   background-color: $color__white
-  padding: 4em 0
+  padding: 4em 0 0
+  overflow: hidden
+
+  &__content
+    &::after
+      content: ''
+      display: block
+      width: 280em
+      height: 30em
+      background: url(/assets/img/asci.svg)
+      position: absolute
+      top: 145em
+      right: -139em
+      transform: rotateZ(90deg)
+      background-position: left bottom
+      z-index: 0
+      background-size: 50em auto
 
   &--work
     padding-bottom: 0
@@ -103,5 +119,3 @@ $color__overlay--6: #026e16
     text-align: center
     font-style: italic
     letter-spacing: -0.1em
-
-

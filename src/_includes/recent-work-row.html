@@ -1,0 +1,15 @@
+{% for item in site.work %}
+
+  {% if item.work_id == include.sample_1_id %}
+    {% include work-summary.html work = item %}
+  {% endif %}
+
+  {% if item.work_id == include.sample_2_id %}
+    {% include work-summary.html work = item %}
+  {% endif %}
+
+  {% if item.work_id == include.sample_3_id %}
+    {% include work-summary.html work = item %}
+  {% endif %}
+
+{% endfor %}

@@ -1,12 +1,16 @@
-<div class="work--summary">
+<div class="work work--summary">
   <div class="fukol-grid">
-    <div class="">
-      <img class="work__thumb work--summary__thumb" src="{{ include.work.thumb }}" alt=="">
-    </div>
-    <div class="work__story work--summary__story">
-      <h2 class="work__title work--summary__title">{{ include.work.title }}</h2>
-      {{ include.work.content | truncate: 100 }}
-      <a class="work__more-link" href="{{ include.work.permalink }}" title="">[look @]</a>
-    </div>
+      <div class="">
+        <a class="work__item-link" href="{{ include.work.permalink }}" style="display:block">
+          <img class="work__thumb work--summary__thumb" src="{{ include.work.thumb }}" alt=="">
+        </a>
+      </div>
+      <div class="work__story work--summary__story">
+        <a class="work__item-link" href="{{ include.work.permalink }}">
+        <h2 class="work__title work--summary__title">{{ include.work.title }}</h2>
+      </a>
+        {{ include.work.content | truncate: 100 }}
+        <a class="work__more-link" href="{{ include.work.permalink }}" title="">[more]</a>
+      </div>
   </div>
 </div>

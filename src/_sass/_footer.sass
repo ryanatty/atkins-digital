@@ -1,27 +1,37 @@
 .footer
-  background: $color__white
+  // background: $color__white
   overflow: hidden
-  padding: 8em 0 0
+  padding: 14em 0 0
   // border-bottom: 16em solid $color__black
+
+  &::before
+    content: ''
+    display: block
+    width: 1em
+    height: 6px
+    background-color: $color__black
+    position: absolute
+
 
   &__sub
     clear: both
-    height: 16em
-    background-color: $color__black
+    // height: 16em
+    // background-color: $color__black
     overflow: hidden
-    margin-top: 8em
+    padding: 3em 0 4em
+    border-bottom: 1em solid $color__black
 
     a
-      color: $color__white
+      // color: $color__white
 
   .by-line
-    color: $color__white
-    float: right
+    // color: $color__white
+    // float: right
     font-family: serif
     font-style: italic
     text-align: justify
     font-size: 0.5em
-    width: 2em
+    // width: 6em
     word-wrap: break-word
     word-break: break-all
-    margin: 9em 5em 0
+    margin: 3em 0 0
