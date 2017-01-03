@@ -1,29 +1,25 @@
 language: ruby
-
 rvm:
-  - 2.2
-
+- 2.2
 branches:
   only:
-    - master
-    - live
-
+  - master
+  - live
 install:
-  - bundle install
-
+- bundle install
 cache:
   bundler: true
-
 script:
-  - jekyll build
-
+- jekyll build
 deploy:
   provider: s3
   access_key_id:
-    secure: getdpSzJeQRYyI44jvW1jpSNnR3+cQV6clo6b8Gj8enCUFrFvOf11Hl8uVvFrOYX85J90NQHdtK8p8NvOfsKcnj8Zq/LYLmYRkAGWZzEFhW+Lp01Pe9UWyX+X9vRhk/h1dKuf95BoyyMAQuA+HBBkI3HXWppafWUkLSygXQZguIoy3LlXXTWA2tK4Dqm6YwWeJhvTDnmylIKs5p7erOOarxg54+kG/A4D85VxVROAhgLF7cgIYXrVdmqO+7AO147Gv8M4qpikrZDpG1DE/cAc4088nt7MtczE8O7IX0utd+rQp2GbyBdIL3HraZZarQ8IbcV+IWp27/AmMCGfabZ2wbtBY3ztv/aWDUFVQ/CbpmjHfxi44y6Vg2kSmaAusRRSlSZQ4yfVKUEbXS828TpMaKy+1n7xjxLq2Pgs56ceSoYMJWx4Oxja2dUyk6LRWy2MtOqdpqWXQEgir27M76/0hgZgLTO6dFGy0hCTRasIejVr6ihVEteXVkiCiNLOYTEHOZ1wul1cJVtcOzyO5/xC+1smLT107CRn/gij0kKn0Fb/hn5S5Sxq2dZY7TIEgRTVOBw3sBGak8Rbq9Wh9vS2x/Fk07w1eX59FQG+6sM2pseZ01n7bFPT6eCQOaRZ+5ly9jvU4Dsxig/1oRAwAMBhLBrar1ZE0/y0bjuuO/znjM=
+    secure: g+2PNrmWiETlQzITk6s0NbnsEXHye/MrVrGkHPd1AoDSEZ95P9lgujK0GuNyRNiXqIWC4HdgO0crGzqyhVhTpdZodVLCpwqzxIbE7sxCVVrAH5EZPyFHNj6IGogfO4PH8mMt2XmOe5QvjVH5Nzh0cg5PUU86keSR4+p3bU/erWAZpFpE0GirB3IM3ILr1PspOwVm25+F8ITti/32rxusW0I2gVyx6Mrzq2n2fqf0OSittkdCPDUYZUoXjLr04C0HTRIG1ctzsPrW2Q0qsYNN1Q4H7395Herj3z0bddr+ruKDpNGoIL++w2RGPk/etC1yUAAAP9E8PPYLuQHRJ+0Iy0l7qXvU+USQ3k1V6LnQoL9YJtmMhqzVo8+x/B5NlRxld8TmOqIUV5j/B9JYXIyr7pyUiq1a2tM+kY0Ys0eLiMAhEclXgCdDIIaKAx09LYYuxHafJwWm1xNb/G8Kdl3o3eKk/eTb3HLwnzqCXT6IF4J+E48DKWrdFmpKTZhroOAiE0pwxxiZ12ziZ6uQHu/QfYeUDEDHhFVT1al9xiLUymihtT02mvRdxYZFdo+ZaZulLWU+rK509qJKEjcvuH7sldBpgNEFetI/MTQNq3gKNkion5+/tv/f4UP+pNFzupeVhsaVVxp8IzbhchKRr+qkdLNwpgY61OYUUXJOXPLcVCE=
   secret_access_key:
-    secure: p7qerV3WjTqo2VGpkFTI5mCob8zf1ToyYZnWgwyVVyCes0CmeycKEdaVzhvoCxveN0t1v6+UgtCxKES9W19BnbIV6b36fbow+yRXAbwl/B8D9HMTuQAJOZPNxtZpr1dbhag8tTQDd0aUggwU7LoRM7vxoNd6+ieznl8k0RdikGNHujsv3LXeeQT5hMXqie0Vox4mrwZ7B7RaSBpDG8T0+OK+Wy3VziiO2HE/RmGQqXJ6dKzXuU42Op8SP1Ar8G5HaCFwhVUK9UqmN/5/1aJNZdjkWIAuv3nhV+hnRhBJFrpcdafLTo4DKKuJRyrTbYHse4FlQLqJWuRboz1ZmoQZneP6Ms45Z01VMKjjUe32ul9RP8ckf/87wwV3f9vKemIZfBIPjOzA+zoGO224ZKqsN1Qay9y6HKH9fTNihzoPPyjn9A/iYoGgT8jFwG9sz0eTpEtJt7Jm8AYv72tnsGPraBG5jN1u6C6/ecQgtq0FsA7zouLoUu0wsjBAEryfJRPTPp8pnXSeuhs78g9eZ9gAJIYvaSrxrB2LQKrY3mc06IyHbzcOFMMdkXMy5/hm6XYvO9beZNT790eEJFjZoJ64xzc4DRNrTEHwcSq/T5eNHAKqDAG35aWup4CyqsNq4OJlJoymmbXDOEPdVEUCPpFcHLJULtyHQKutmLX/cn0hIZ4=
-  bucket: "stage.atkins.digital"
+    secure: tLwCAprjeSpZ2llOMd0KyOrmTsWaKmGL2SQk2Sqr68yy/a0H1ZjTDhhOkmNzoH/znAekgCczz/3b+64Qsy5Qfzz5rSp8Kq56Urmre9Qo0UpxWSc13Xa4KcPB4+ANjt8qYPHAfC4vYhEs3tQ/E35tf8iEcxbHDmw1Nr574s7O4fxNuxAYvthw22Dnz4qAVn9Zbl6UIQdU0oF6DDkSOOnHNEIZEmR8gwPi640I2p+ZSdGbsWnR4Xe9vh6PxhjTLVMJKKyuG4Y0gkp/SGudTwEHtm/8Pbo8kFUOnQpIeE2gBhXLuE9bVr0E5hg8cRgTHlaALgPdyxfq3VTP52wp/dQ2j0aS9uBWA5/Jx23cvI3TDYbzQxy2/nH3jg6ZXoysQHxM5PwkIaZajAoZ/EtVgpsHq0E7gHpgRr7lj+WwG4UQz8UiDz/kFy1LZ0ClkrCKjoW+FgcyodjwjFUUQTwdu0yH/KJUcd/blAZWwUj+iP4+hp/9NYFXDPbkuncjnNr97nBzjF81Y8vHxzz4lRbVAqZsj38bl4XBjqFJm+rVt8xSBHuefrX2jmVvOtaaePi6V0B0vMMcbFUI2Br95oS2AbKRbpNr4e5vlcLW7xFStbBRgAA1fqXDncomxpfO+iYAW9hpo3dVlKFxqCErz7J+jn2zEfehXe86QpJghYzr5SP5fQA=
+  bucket: aws-website-stageatkinsdigital-13n6k
   skip_cleanup: true
-  local_dir: "build"
-  region: "us-west-2"
+  local_dir: build
+  region: us-east-1
+  on:
+    branch: master
